@@ -8,6 +8,9 @@ Heroku Backend: https://codedamn.herokuapp.com/
 
 AWS Backend: http://codedamn-env.eba-3ce2mpdm.ap-south-1.elasticbeanstalk.com/
 
+Default email: ferinpatel79@gmail.com
+Default password: 1234567890
+
 **Note**
 This website doesn't use AWS backend because website which is `HTTPS` is not able to make request to AWS backend which is `HTTP`. So i have used heroku backend.
 
