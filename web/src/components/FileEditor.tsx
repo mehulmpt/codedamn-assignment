@@ -172,7 +172,7 @@ const FileEditor: React.FC<FileEditorProps> = () => {
                     // @ts-ignore
                     xtermRef.current.terminal.write("\b \b");
                   }
-                } else if (/^[A-Za-z0-9"' .]+$/.test(event.key)) {
+                } else if (/^[A-Za-z0-9"' ./&]+$/.test(event.key)) {
                   // @ts-ignore
                   xtermRef.current.terminal.write(event.key);
                   setCommand((old) => old + event.key);
