@@ -2,7 +2,7 @@
 
 ---
 
-Website: https://codedamn-assignment.vercel.app/
+Website: https://codedamn.vercel.app/
 
 Heroku Backend: https://codedamn.herokuapp.com/
 
