@@ -1,13 +1,11 @@
 import MonacoEditor from "@monaco-editor/react";
 import classnames from "classnames";
-import { useMutation } from "react-query";
 import { Resizable } from "re-resizable";
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { Context, ContextType } from "src/data/context";
 import { SocketContext, SocketContextType } from "src/data/socket";
 import { XTerm } from "xterm-for-react";
 import style from "../css/FileEditor.module.css";
-import { RunCode } from "src/utils/Apis";
 
 interface FileEditorProps {}
 
@@ -34,8 +32,6 @@ const FileEditor: React.FC<FileEditorProps> = () => {
       setSelectedFile({ ...selectedFile, content: e });
     }
   };
-
-  const mutation = useMutation(() => RunCode(userData?.accessToken || ""));
 
   useEffect(() => {
     if (userData && socket) {
@@ -117,9 +113,6 @@ const FileEditor: React.FC<FileEditorProps> = () => {
               </div>
             );
           })}
-          <button className="button is-link" onClick={() => mutation.mutate()}>
-            Run
-          </button>
         </div>
         {selectedFile ? (
           <MonacoEditor

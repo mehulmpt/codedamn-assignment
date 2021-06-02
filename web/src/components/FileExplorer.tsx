@@ -31,6 +31,7 @@ const FileExplorer: React.FC<FileExplorerProps> = () => {
     {
       onSuccess: (response) => {
         setIsAddFileModelOpen(false);
+        response.data.file.id = Date.now();
         setFiles((old) => [...old, response.data.file]);
         setSelectedFile(response.data.file);
         setFileNavbar((old) => [...old, response.data.file]);
