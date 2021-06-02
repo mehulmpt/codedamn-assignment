@@ -3,6 +3,9 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter as Router } from "react-router-dom";
 import Routes from "./routes";
 import { SocketContextProvider } from "./data/socket";
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 function App() {
   const queryClient = new QueryClient();

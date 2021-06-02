@@ -1,5 +1,7 @@
 import axios from "axios";
-export const API = "https://codedamn.herokuapp.com";
+export const API = process.env.REACT_APP_BACKEND_URL || "http://localhost:4000";
+
+console.log(API);
 
 export const Header = {
   "Content-Type": "Application/json",
