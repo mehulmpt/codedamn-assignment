@@ -1,0 +1,26 @@
+.fileExplorerWrapper {
+  min-width: 17%;
+  height: 100%;
+  background-color: #000;
+  resize: horizontal;
+}
+
+.label {
+  padding: 5px;
+  color: white;
+  margin: auto;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fileItem {
+  margin: 20px 0;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+.fileActive {
+  background-color: #252525;
+}

@@ -1,0 +1,26 @@
+.fileNavbar {
+  width: auto;
+  height: 5%;
+  background: #2d2d2d;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+}
+.fileItem {
+  height: 100%;
+  color: white;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.fileOpen {
+  background: #1e1e1e;
+}
+.closeFile {
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}

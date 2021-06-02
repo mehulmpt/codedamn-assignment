@@ -1,0 +1,529 @@
+[
+  {
+    "name": "ASP",
+    "type": "programming",
+    "extensions": [".asp", ".asax", ".ascx", ".ashx", ".asmx", ".aspx", ".axd"]
+  },
+  {
+    "name": "Assembly",
+    "type": "programming",
+    "extensions": [".asm", ".a51", ".inc", ".nasm"]
+  },
+  {
+    "name": "Batchfile",
+    "type": "programming",
+    "extensions": [".bat", ".cmd"]
+  },
+  {
+    "name": "Brainfuck",
+    "type": "programming",
+    "extensions": [".b", ".bf"]
+  },
+  {
+    "name": "C",
+    "type": "programming",
+    "extensions": [".c", ".cats", ".h", ".idc", ".w"]
+  },
+  {
+    "name": "C#",
+    "type": "programming",
+    "extensions": [".cs", ".cake", ".cshtml", ".csx"]
+  },
+  {
+    "name": "C++",
+    "type": "programming",
+    "extensions": [
+      ".cpp",
+      ".c++",
+      ".cc",
+      ".cp",
+      ".cxx",
+      ".h",
+      ".h++",
+      ".hh",
+      ".hpp",
+      ".hxx",
+      ".inc",
+      ".inl",
+      ".ipp",
+      ".tcc",
+      ".tpp"
+    ]
+  },
+  {
+    "name": "CSS",
+    "type": "markup",
+    "extensions": [".css"]
+  },
+  {
+    "name": "CSV",
+    "type": "data",
+    "extensions": [".csv"]
+  },
+  {
+    "name": "Clojure",
+    "type": "programming",
+    "extensions": [
+      ".clj",
+      ".boot",
+      ".cl2",
+      ".cljc",
+      ".cljs",
+      ".cljs.hl",
+      ".cljscm",
+      ".cljx",
+      ".hic"
+    ]
+  },
+  {
+    "name": "CoffeeScript",
+    "type": "programming",
+    "extensions": [".coffee", "._coffee", ".cake", ".cjsx", ".cson", ".iced"]
+  },
+  {
+    "name": "Dart",
+    "type": "programming",
+    "extensions": [".dart"]
+  },
+  {
+    "name": "Dockerfile",
+    "type": "data",
+    "extensions": [".dockerfile"]
+  },
+  {
+    "name": "Elixir",
+    "type": "programming",
+    "extensions": [".ex", ".exs"]
+  },
+  {
+    "name": "Erlang",
+    "type": "programming",
+    "extensions": [".erl", ".es", ".escript", ".hrl", ".xrl", ".yrl"]
+  },
+  {
+    "name": "FORTRAN",
+    "type": "programming",
+    "extensions": [".f90", ".f", ".f03", ".f08", ".f77", ".f95", ".for", ".fpp"]
+  },
+  {
+    "name": "Go",
+    "type": "programming",
+    "extensions": [".go"]
+  },
+  {
+    "name": "Gradle",
+    "type": "data",
+    "extensions": [".gradle"]
+  },
+  {
+    "name": "GraphQL",
+    "type": "data",
+    "extensions": [".graphql"]
+  },
+  {
+    "name": "HTML",
+    "type": "markup",
+    "extensions": [".html", ".htm", ".html.hl", ".inc", ".st", ".xht", ".xhtml"]
+  },
+  {
+    "name": "HTML+Django",
+    "type": "markup",
+    "extensions": [".mustache", ".jinja"]
+  },
+  {
+    "name": "Hack",
+    "type": "programming",
+    "extensions": [".hh", ".php"]
+  },
+  {
+    "name": "Haskell",
+    "type": "programming",
+    "extensions": [".hs", ".hsc"]
+  },
+  {
+    "name": "JSON",
+    "type": "data",
+    "extensions": [".json", ".geojson", ".lock", ".topojson"]
+  },
+  {
+    "name": "JSON5",
+    "type": "data",
+    "extensions": [".json5"]
+  },
+  {
+    "name": "JSONLD",
+    "type": "data",
+    "extensions": [".jsonld"]
+  },
+  {
+    "name": "JSONiq",
+    "type": "programming",
+    "extensions": [".jq"]
+  },
+  {
+    "name": "JSX",
+    "type": "programming",
+    "extensions": [".jsx"]
+  },
+  {
+    "name": "Java",
+    "type": "programming",
+    "extensions": [".java"]
+  },
+  {
+    "name": "Java Server Pages",
+    "type": "programming",
+    "extensions": [".jsp"]
+  },
+  {
+    "name": "JavaScript",
+    "type": "programming",
+    "extensions": [
+      ".js",
+      "._js",
+      ".bones",
+      ".es",
+      ".es6",
+      ".frag",
+      ".gs",
+      ".jake",
+      ".jsb",
+      ".jscad",
+      ".jsfl",
+      ".jsm",
+      ".jss",
+      ".njs",
+      ".pac",
+      ".sjs",
+      ".ssjs",
+      ".sublime-build",
+      ".sublime-commands",
+      ".sublime-completions",
+      ".sublime-keymap",
+      ".sublime-macro",
+      ".sublime-menu",
+      ".sublime-mousemap",
+      ".sublime-project",
+      ".sublime-settings",
+      ".sublime-theme",
+      ".sublime-workspace",
+      ".sublime_metrics",
+      ".sublime_session",
+      ".xsjs",
+      ".xsjslib"
+    ]
+  },
+  {
+    "name": "Julia",
+    "type": "programming",
+    "extensions": [".jl"]
+  },
+  {
+    "name": "Jupyter Notebook",
+    "type": "markup",
+    "extensions": [".ipynb"]
+  },
+  {
+    "name": "Kotlin",
+    "type": "programming",
+    "extensions": [".kt", ".ktm", ".kts"]
+  },
+  {
+    "name": "Less",
+    "type": "markup",
+    "extensions": [".less"]
+  },
+  {
+    "name": "Lex",
+    "type": "programming",
+    "extensions": [".l", ".lex"]
+  },
+  {
+    "name": "MTML",
+    "type": "markup",
+    "extensions": [".mtml"]
+  },
+  {
+    "name": "Markdown",
+    "type": "prose",
+    "extensions": [".md", ".markdown", ".mkd", ".mkdn", ".mkdown", ".ron"]
+  },
+  {
+    "name": "Matlab",
+    "type": "programming",
+    "extensions": [".matlab", ".m"]
+  },
+  {
+    "name": "NumPy",
+    "type": "programming",
+    "extensions": [".numpy", ".numpyw", ".numsc"]
+  },
+  {
+    "name": "Objective-C",
+    "type": "programming",
+    "extensions": [".m", ".h"]
+  },
+  {
+    "name": "Objective-C++",
+    "type": "programming",
+    "extensions": [".mm"]
+  },
+  {
+    "name": "Objective-J",
+    "type": "programming",
+    "extensions": [".j", ".sj"]
+  },
+  {
+    "name": "PHP",
+    "type": "programming",
+    "extensions": [
+      ".php",
+      ".aw",
+      ".ctp",
+      ".fcgi",
+      ".inc",
+      ".php3",
+      ".php4",
+      ".php5",
+      ".phps",
+      ".phpt"
+    ]
+  },
+  {
+    "name": "PLSQL",
+    "type": "programming",
+    "extensions": [".pls", ".pck", ".pkb", ".pks", ".plb", ".plsql", ".sql"]
+  },
+  {
+    "name": "Pascal",
+    "type": "programming",
+    "extensions": [".pas", ".dfm", ".dpr", ".inc", ".lpr", ".pp"]
+  },
+  {
+    "name": "Perl",
+    "type": "programming",
+    "extensions": [
+      ".pl",
+      ".al",
+      ".cgi",
+      ".fcgi",
+      ".perl",
+      ".ph",
+      ".plx",
+      ".pm",
+      ".pod",
+      ".psgi",
+      ".t"
+    ]
+  },
+  {
+    "name": "Perl6",
+    "type": "programming",
+    "extensions": [
+      ".6pl",
+      ".6pm",
+      ".nqp",
+      ".p6",
+      ".p6l",
+      ".p6m",
+      ".pl",
+      ".pl6",
+      ".pm",
+      ".pm6",
+      ".t"
+    ]
+  },
+  {
+    "name": "PowerShell",
+    "type": "programming",
+    "extensions": [".ps1", ".psd1", ".psm1"]
+  },
+  {
+    "name": "Processing",
+    "type": "programming",
+    "extensions": [".pde"]
+  },
+  {
+    "name": "Prolog",
+    "type": "programming",
+    "extensions": [".pl", ".pro", ".prolog", ".yap"]
+  },
+  {
+    "name": "Public Key",
+    "type": "data",
+    "extensions": [".asc", ".pub"]
+  },
+  {
+    "name": "Python",
+    "type": "programming",
+    "extensions": [
+      ".py",
+      ".bzl",
+      ".cgi",
+      ".fcgi",
+      ".gyp",
+      ".lmi",
+      ".pyde",
+      ".pyp",
+      ".pyt",
+      ".pyw",
+      ".rpy",
+      ".tac",
+      ".wsgi",
+      ".xpy"
+    ]
+  },
+  {
+    "name": "Python traceback",
+    "type": "data",
+    "extensions": [".pytb"]
+  },
+  {
+    "name": "R",
+    "type": "programming",
+    "extensions": [".r", ".rd", ".rsx"]
+  },
+  {
+    "name": "Ruby",
+    "type": "programming",
+    "extensions": [
+      ".rb",
+      ".builder",
+      ".fcgi",
+      ".gemspec",
+      ".god",
+      ".irbrc",
+      ".jbuilder",
+      ".mspec",
+      ".pluginspec",
+      ".podspec",
+      ".rabl",
+      ".rake",
+      ".rbuild",
+      ".rbw",
+      ".rbx",
+      ".ru",
+      ".ruby",
+      ".thor",
+      ".watchr"
+    ]
+  },
+  {
+    "name": "Rust",
+    "type": "programming",
+    "extensions": [".rs", ".rs.in"]
+  },
+  {
+    "name": "SAS",
+    "type": "programming",
+    "extensions": [".sas"]
+  },
+  {
+    "name": "SCSS",
+    "type": "markup",
+    "extensions": [".scss"]
+  },
+  {
+    "name": "SQL",
+    "type": "data",
+    "extensions": [
+      ".sql",
+      ".cql",
+      ".ddl",
+      ".inc",
+      ".prc",
+      ".tab",
+      ".udf",
+      ".viw"
+    ]
+  },
+  {
+    "name": "SQLPL",
+    "type": "programming",
+    "extensions": [".sql", ".db2"]
+  },
+  {
+    "name": "SVG",
+    "type": "data",
+    "extensions": [".svg"]
+  },
+  {
+    "name": "Sass",
+    "type": "markup",
+    "extensions": [".sass"]
+  },
+  {
+    "name": "Scala",
+    "type": "programming",
+    "extensions": [".scala", ".sbt", ".sc"]
+  },
+  {
+    "name": "Shell",
+    "type": "programming",
+    "extensions": [
+      ".sh",
+      ".bash",
+      ".bats",
+      ".cgi",
+      ".command",
+      ".fcgi",
+      ".ksh",
+      ".sh.in",
+      ".tmux",
+      ".tool",
+      ".zsh"
+    ]
+  },
+  {
+    "name": "Swift",
+    "type": "programming",
+    "extensions": [".swift"]
+  },
+  {
+    "name": "Text",
+    "type": "prose",
+    "extensions": [".txt", ".fr", ".nb", ".ncl", ".no"]
+  },
+  {
+    "name": "TypeScript",
+    "type": "programming",
+    "extensions": [".ts", ".tsx"]
+  },
+  {
+    "name": "Visual Basic",
+    "type": "programming",
+    "extensions": [
+      ".vb",
+      ".bas",
+      ".cls",
+      ".frm",
+      ".frx",
+      ".vba",
+      ".vbhtml",
+      ".vbs"
+    ]
+  },
+  {
+    "name": "Vue",
+    "type": "markup",
+    "extensions": [".vue"]
+  },
+  {
+    "name": "YAML",
+    "type": "data",
+    "extensions": [
+      ".yml",
+      ".reek",
+      ".rviz",
+      ".sublime-syntax",
+      ".syntax",
+      ".yaml",
+      ".yaml-tmlanguage"
+    ]
+  },
+  {
+    "name": "Yacc",
+    "type": "programming",
+    "extensions": [".y", ".yacc", ".yy"]
+  }
+]

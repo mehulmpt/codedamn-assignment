@@ -1,0 +1,22 @@
+.sidebar {
+  background: #252525;
+  width: 3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sidebarItem {
+  width: 100%;
+  height: 30px;
+  max-height: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.sidebarActive {
+  border-left: 2px solid white;
+}
