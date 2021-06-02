@@ -77,3 +77,7 @@ Whenever user types code in frontend, the code is send to server via WebSockets.
 So when user joins the websockets, the goal was to spin up the docker container, bind the `/uploads/{email}/` (the folder where user specific files are stored) volume to docker and start the pre-build nodejs image. I was able to do so, however i was unable to show user the static file serve output from docker becuase every docker container inside my application are listening to same port. As I was not able to connect to dynamic docker container from frontend, i was unable to create live code preview window. Due to same reason terminal is also not connected to docker, it is connected to server. I know it is harmful to give server's `CMD` access from frontend but it is just to show that terminal integrated in frontend is connected to real backend.
 
 For more look at Docker File inside `server` folder.
+
+**NOTE**
+
+You may lost saved files from server because heroku server stops after 30 minutes.
