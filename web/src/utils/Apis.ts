@@ -1,6 +1,5 @@
 import axios from "axios";
-export const API =
-  "http://codedamn-env.eba-3ce2mpdm.ap-south-1.elasticbeanstalk.com";
+export const API = "https://codedamn.herokuapp.com/";
 
 export const Header = {
   "Content-Type": "Application/json",
