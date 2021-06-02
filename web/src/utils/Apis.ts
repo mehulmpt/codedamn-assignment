@@ -1,5 +1,5 @@
 import axios from "axios";
-export const API = "https://codedamn.herokuapp.com/";
+export const API = "https://codedamn.herokuapp.com";
 
 export const Header = {
   "Content-Type": "Application/json",
